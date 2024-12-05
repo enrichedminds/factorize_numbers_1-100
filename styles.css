@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.app-container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 3px solid #5ea7bb;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+h1 {
+    color: #5ea7bb;
+}
+
+.number-box {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.input-container input[type="number"] {
+    margin: 10px 0;
+    width: 85px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#factors-container {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: inline-block;
+    min-width: 130px;
+    background-color: #f9f9f9;
+}
+
+.factor-pair {
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+button {
+    background-color: #5ea7bb;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #4a8d9b;
+}
+
+.feedback-success {
+    color: green;
+    font-weight: bold;
+}
+
+.feedback-error {
+    color: red;
+    font-weight: bold;
+}
+
+.feedback-hint {
+    color: blue;
+    font-weight: bold;
+}
